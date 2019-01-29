@@ -4,9 +4,8 @@ class Film extends Component {
   render() {
     return (
       <>
-      <p>Title: {this.props.name}</p>
-      <p>Url: {this.props.url}</p>
-
+      <p><a href={this.props.url}>
+      Title: {this.props.name}</a></p>
       </>
     );
   }
